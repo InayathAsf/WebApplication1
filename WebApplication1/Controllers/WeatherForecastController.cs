@@ -30,19 +30,19 @@ namespace WebApplication1.Controllers
             .ToArray();
         }
 
-        /*
         [HttpPost(Name = "PostWeatherForecast")]
         public string Post(string weatherName)
         {
             return weatherName;
         }
-        */
 
+        /*
         [HttpPost("WeatherForecast/{{weatherName}}")]
         public string Post([FromRoute] string weatherName)
         {
             return weatherName;
         }
+        */
     }
 }
 
